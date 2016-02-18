@@ -22,7 +22,7 @@
 		$sql = new TSqlUpdate;
 		$sql->setEntity('famosos');
 
-		$sql->setRowData('nome_', 'Galileu Galilei');
+		$sql->setRowData('nome', 'Galileu Galilei');
 
 		$criteria = new TCriteria;
 		$criteria->add(new TFilter('codigo', '=', '8'));
