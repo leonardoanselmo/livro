@@ -41,7 +41,7 @@
 
 		public static function log($message){
 			if (self::$logger) {
-				self::logger->write($message);
+				self::$logger->write($message);
 			}
 		}
 
