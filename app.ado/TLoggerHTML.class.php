@@ -10,7 +10,7 @@
 			$text .= "	<i>$message</i> <br> \n";
 			$text .= "</p> \n";
 
-			$handler = fopen(this->filename, 'a');
+			$handler = fopen($this->filename, 'a');
 			fwrite($handler, $text);
 			fclose($handler);
 
