@@ -1,0 +1,8 @@
+<log>
+	<time>2016-02-19 15:20:10</time>
+	<message>Inserindo registro Albert Einstein</message>
+</log>
+<log>
+	<time>2016-02-19 15:20:10</time>
+	<message>INSERT INTO famosos (codigo, nome) values (10, 'Albert Einstein')</message>
+</log>
