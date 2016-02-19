@@ -3,6 +3,7 @@
 	final class TTransaction{
 
 		private static $conn;
+		private static $logger;
 
 		private function __construct(){}
 
@@ -11,6 +12,7 @@
 			if (empty(self::$conn)) {
 				self::$conn = TConnection::open($database);
 				self::$conn->beginTransaction();
+				self::$logger = NULL;
 			}
 
 		}
@@ -30,6 +32,16 @@
 			if (self::$conn) {
 				self::$conn->commit();
 				self::$conn = NULL;
+			}
+		}
+
+		public static function setLogger(TLogger $logger){
+			self::$logger = $logger;
+		}
+
+		public static function log($message){
+			if (self::$logger) {
+				self::logger->write($message);
 			}
 		}
 
