@@ -1,0 +1,8 @@
+2016-02-27 21:26:27 :: ** inserindo alunos 
+2016-02-27 21:26:27 :: SELECT max(ID) as ID FROM aluno 
+2016-02-27 21:26:27 :: INSERT INTO aluno (nome, endereco, telefone, cidade, id) values ('Dalline Dall Oglio', 'Rua da Conceicao', '(51) 1111-2222', 'Cruzeiro do Sul', 1) 
+2016-02-27 21:26:27 :: SELECT max(ID) as ID FROM aluno 
+2016-02-27 21:26:27 :: INSERT INTO aluno (nome, endereco, telefone, cidade, id) values ('William Scatolla', 'Rua de Fátima', '(51) 1111-2222', 'Encantado', 2) 
+2016-02-27 21:26:27 :: ** Inserindo cursos 
+2016-02-27 21:26:27 :: SELECT max(ID) as ID FROM curso 
+2016-02-27 21:26:27 :: INSERT INTO curso (descricao, duracao, id) values ('Desenvolvendo em PHP-GTK', 32, 1) 
