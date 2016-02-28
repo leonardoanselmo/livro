@@ -58,6 +58,7 @@
 					$sql->setRowData($key, $this->$key);					
 				}
 			} else {
+				
 				$sql = new TSqlUpdate;
 				$sql->setEntity($this->getEntity());
 
@@ -66,7 +67,9 @@
 				$sql->setCriteria($criteria);
 				foreach ($this->data as $key => $value) {
 					if($key !== 'id'){
-						$sql = setRowData($key, $this->$key);
+						
+						$sql->setRowData($key, $this->$key);
+						
 					}
 				}
 
