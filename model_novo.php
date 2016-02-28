@@ -32,6 +32,12 @@
 		TTransaction::log('** Inserindo cursos');
 
 		$curso = new CursoRecord;
+		$curso->descricao = 'Orientação a Objetos com PHP';
+		$curso->duracao   = 24;
+		$curso->store();
+
+
+		$curso = new CursoRecord;
 		$curso->descricao = 'Desenvolvendo em PHP-GTK';
 		$curso->duracao   = 32;
 		$curso->store();
