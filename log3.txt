@@ -1,10 +1,10 @@
-2016-02-28 14:43:42 :: ** Obtendo o aluno 1 
-2016-02-28 14:43:42 :: SELECT * FROM aluno WHERE (id = 1) 
-2016-02-28 14:43:42 :: ** Persistindo o aluno 1 
-2016-02-28 14:43:42 :: SELECT * FROM aluno WHERE (id = '1') 
-2016-02-28 14:43:42 :: UPDATE aluno SET nome = 'Dalline Dall Oglio', endereco = 'Rua da Conceicao', telefone = '(55) 1111-3333', cidade = 'Cruzeiro do Sul' WHERE (id = '1') 
-2016-02-28 14:43:42 :: ** Obtendo o curso 1 
-2016-02-28 14:43:42 :: SELECT * FROM curso WHERE (id = 1) 
-2016-02-28 14:43:42 :: ** Persistindo o curso 1 
-2016-02-28 14:43:42 :: SELECT * FROM curso WHERE (id = '1') 
-2016-02-28 14:43:42 :: UPDATE curso SET descricao = 'Orientação a Objetos com PHP', duracao = 28 WHERE (id = '1') 
+2016-02-29 19:18:40 :: ** Obtendo o aluno 1 
+2016-02-29 19:18:40 :: SELECT * FROM aluno WHERE (id = 1) 
+2016-02-29 19:18:40 :: ** Persistindo o aluno 1 
+2016-02-29 19:18:40 :: SELECT * FROM aluno WHERE (id = '1') 
+2016-02-29 19:18:40 :: UPDATE aluno SET nome = 'Dalline Dall Oglio', endereco = 'Rua da Conceicao', telefone = '(55) 1111-3333', cidade = 'Cruzeiro do Sul' WHERE (id = '1') 
+2016-02-29 19:18:40 :: ** Obtendo o curso 1 
+2016-02-29 19:18:40 :: SELECT * FROM curso WHERE (id = 1) 
+2016-02-29 19:18:40 :: ** Persistindo o curso 1 
+2016-02-29 19:18:40 :: SELECT * FROM curso WHERE (id = '1') 
+2016-02-29 19:18:40 :: UPDATE curso SET descricao = 'Orientação a Objetos com PHP', duracao = 28 WHERE (id = '1') 
