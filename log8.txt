@@ -1,0 +1,4 @@
+2016-03-01 13:31:05 :: ** Conta alunos de Lajeado 
+2016-03-01 13:31:05 :: SELECT count(*) FROM Aluno WHERE (cidade = 'Lajeado') 
+2016-03-01 13:31:05 :: ** Conta Turmas 
+2016-03-01 13:31:05 :: SELECT count(*) FROM Turma WHERE ((sala = 100 AND turno = 'T') OR (sala = 200 AND turno = 'M')) 
