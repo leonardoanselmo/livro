@@ -1,0 +1,8 @@
+2016-03-01 20:14:44 :: ** obtendo o aluno de uma inscricao 
+2016-03-01 20:14:44 :: SELECT * FROM inscricao WHERE (id = 4) 
+2016-03-01 20:14:44 :: SELECT * FROM aluno WHERE (id = '4') 
+2016-03-01 20:14:44 :: SELECT * FROM aluno WHERE (id = '4') 
+2016-03-01 20:14:44 :: SELECT * FROM aluno WHERE (id = '4') 
+2016-03-01 20:14:44 :: ** obtendo as inscricoes de um aluno 
+2016-03-01 20:14:44 :: SELECT * FROM aluno WHERE (id = 4) 
+2016-03-01 20:14:44 :: SELECT * FROM Inscricao WHERE (ref_aluno = '4') 
