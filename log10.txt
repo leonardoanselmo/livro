@@ -1,0 +1,4 @@
+2016-03-01 19:16:51 :: ** inserindo turma 1 
+2016-03-01 19:16:51 :: SELECT max(ID) as ID FROM turma 
+2016-03-01 19:16:51 :: INSERT INTO turma (dia_semana, turno, professor, sala, data_inicio, encerrada, ref_curso, id) values (1, 'M', 'Carlo Bellini', '100', '2009-09-01', 1, 2, 9) 
+2016-03-01 19:16:51 :: ** inserindo turma 2 
