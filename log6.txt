@@ -1,1 +1,5 @@
-2016-03-01 03:17:12 :: SELECT * FROM Turma WHERE (turno = 'T' AND encerrada = 1) 
+2016-03-01 12:42:12 :: SELECT * FROM Turma WHERE (turno = 'T' AND encerrada = 1) 
+2016-03-01 12:42:12 :: SELECT * FROM Inscricao WHERE (nota >= 7 AND frequencia >= 75 AND ref_turma = 1 AND cancelada = 1) 
+2016-03-01 12:42:12 :: SELECT * FROM aluno WHERE (id = '3') 
+2016-03-01 12:42:12 :: SELECT * FROM aluno WHERE (id = '4') 
+2016-03-01 12:42:12 :: SELECT * FROM aluno WHERE (id = '5') 
