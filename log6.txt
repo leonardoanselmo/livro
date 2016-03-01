@@ -1,0 +1,1 @@
+2016-03-01 03:17:12 :: SELECT * FROM Turma WHERE (turno = 'T' AND encerrada = 1) 
