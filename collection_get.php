@@ -38,6 +38,31 @@
 			}
 		}
 
+		$criteria = new TCriteria;
+		$criteria->add(new TFilter('nota', '>=', 7));
+		$criteria->add(new TFilter('frequencia', '>=', 75));
+		$criteria->add(new TFilter('ref_turma', '=', 1));
+		$criteria->add(new TFilter('cancelada', '=', 1));
+
+		$repository = new TRepository('Inscricao');
+		$inscricoes = $repository->load($criteria);
+
+		if ($inscricoes) {
+			echo "Inscricoes retornadas <br/>";
+			echo "===================== <br/>";
+
+			foreach ($inscricoes as $inscricao) {
+				echo ' ID: '.$inscricao->id;
+				echo ' Aluno: '.$inscricao->ref_aluno;
+
+				$aluno = new AlunoRecord($inscricao->ref_aluno);
+
+				echo ' Nome: '.$aluno->nome;
+				echo ' Endereco: '.$aluno->endereco;
+				echo "<br/>";
+			}
+		}
+
 		TTransaction::close();
 
 
