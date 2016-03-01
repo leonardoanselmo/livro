@@ -1,0 +1,7 @@
+2016-03-01 13:03:39 :: ** seleciona inscricoes da turma 2 
+2016-03-01 13:03:39 :: SELECT * FROM Inscricao WHERE (ref_turma = 2 AND cancelada = 1) 
+2016-03-01 13:03:39 :: ** altera as inscricoes 
+2016-03-01 13:03:39 :: SELECT * FROM inscricao WHERE (id = '6') 
+2016-03-01 13:03:39 :: UPDATE inscricao SET ref_aluno = '3', ref_turma = '2', nota = 8, frequencia = 75, cancelada = '1', concluida = '1' WHERE (id = '6') 
+2016-03-01 13:03:39 :: SELECT * FROM inscricao WHERE (id = '7') 
+2016-03-01 13:03:39 :: UPDATE inscricao SET ref_aluno = '4', ref_turma = '2', nota = 8, frequencia = 75, cancelada = '1', concluida = '1' WHERE (id = '7') 
