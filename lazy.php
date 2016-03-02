@@ -10,7 +10,7 @@
 
 		function get_aluno(){
 
-			$aluno = new AlunoRecord($this->ref_aluno);			
+			$aluno = new AlunoRecord($this->ref_aluno);					
 			return $aluno;
 
 		}

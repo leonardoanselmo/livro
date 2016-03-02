@@ -26,7 +26,7 @@
 			}
 		}
 
-		private function __get($prop){
+		private function __get($prop){			
 			if (method_exists($this, 'get_'.$prop)) {
 				return call_user_func(array($this, 'get_'.$prop));
 			} else {
@@ -86,6 +86,8 @@
 		}
 
 		public function load($id){
+
+			echo "entrei aqui <br/>";
 
 			$sql = new TSqlSelect;
 			$sql->setEntity($this->getEntity());
