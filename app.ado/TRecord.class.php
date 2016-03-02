@@ -86,9 +86,7 @@
 		}
 
 		public function load($id){
-
-			echo "entrei aqui <br/>";
-
+			
 			$sql = new TSqlSelect;
 			$sql->setEntity($this->getEntity());
 			$sql->addColumn('*');
