@@ -6,7 +6,7 @@
 		private $properties;
 		static private $loaded;
 
-		public function __constructor($name){
+		public function __construct($name){
 			$this->name = $name;
 		}
 
