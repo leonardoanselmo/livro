@@ -20,7 +20,7 @@
 	$estilo2->width            = '142px';
 	$estilo2->height           = '154px';
 
-	//$estilo1->show();
+	$estilo1->show();
 	$estilo2->show();
 
  ?>
