@@ -9,7 +9,7 @@
 			$painel_style->width            = $width;
 			$painel_style->height           = $height;
 			$painel_style->border           = '2px solid';
-			$painel_style->border_color     = 'grey';
+			$painel_style->border_color     = 'blue';
 			$painel_style->background_color = '#f0f0f0';
 
 			$painel_style->show();
