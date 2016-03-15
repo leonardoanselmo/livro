@@ -46,6 +46,6 @@
 	$contato->setEmail('patricia_anselmo08@hotmail.com');
 	$contato->setFone('9609-2716');
 
-	echo "INSERT INTO (nome, email, fone) VALUES ('{$contato->getNome()}', '{$contato->getEmail()}', '{$contato->getFone()}')";	
+	echo "INSERT INTO (nome, email, fone) VALUES ('{$contato->getNome()}', '{$contato->getEmail()}', '{$contato->getFone()}') <br/>";	
 
  ?>
